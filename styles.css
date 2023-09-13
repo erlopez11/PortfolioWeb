@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Inter&family=Public+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
 
 * {
     margin: 0;
@@ -10,10 +10,38 @@ body {
     font-size: 100%;
     min-height: 100vh;
     background-color: #FCFBF9;
+    font-family: 'Public Sans', sans-serif;
 
 }
 
+/* Navigation */
 
+nav {
+    background-color: #AED3CD;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    padding-left: 2%; /* temporary ?*/
+}
+
+ul {
+    display: flex;
+    gap: 35%; /* temporary ?*/
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.current_menu {
+    border-bottom: solid #F1845C;
+    padding-bottom: 3px;
+    width: fit-content;
+}
+
+
+/* Images (temporary)*/
+img {
+    width: 25%;
+}
 
 /* Overlay */
 .overlay {
