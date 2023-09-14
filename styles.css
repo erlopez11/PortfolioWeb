@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500&display=swap');
 
 * {
     margin: 0;
@@ -37,6 +37,34 @@ ul {
     width: fit-content;
 }
 
+/* Hero Content */
+
+.hero_content {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+    padding: 100px 60px; /*temporary*/
+}
+
+h1 {
+    font-weight: bold;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.hero_text h2 {
+    font-weight: 300;
+}
+
+.hero_text {
+    width: 50%;
+}
+
+.hero_img {
+    width: 40%;
+}
 
 /* Images (temporary)*/
 img {
