@@ -11,6 +11,7 @@ body {
     min-height: 100vh;
     background-color: #FCFBF9;
     font-family: 'Public Sans', sans-serif;
+    color: #012332;
 
 }
 
@@ -40,7 +41,6 @@ ul {
 /* Hero Content */
 
 .hero_content {
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,6 +64,37 @@ h1 {
 
 .hero_img {
     width: 40%;
+}
+
+.line {
+    background-color: #AED3CD;
+    height: 5px;
+    margin: 10px 40px;
+}
+
+/* About */
+
+.about_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 60px;
+}
+
+.about_img {
+    width: 50%;
+}
+
+.about_text {
+    border: 1px solid red;
+    width: 50%;
+}
+
+.underline {
+    font-weight: bold;
+    border-bottom: 4px solid #F1845C;
+    width: fit-content;
+    padding-bottom: 3px; 
 }
 
 /* Images (temporary)*/
