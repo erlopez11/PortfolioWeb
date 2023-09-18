@@ -45,7 +45,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     height: 60vh;
-    padding: 100px 60px; /*temporary*/
+    padding: 60px 60px; /*temporary*/
 }
 
 h1 {
@@ -66,7 +66,7 @@ h1 {
     width: 40%;
 }
 
-.line {
+.divider {
     background-color: #AED3CD;
     height: 5px;
     margin: 10px 40px;
@@ -86,7 +86,6 @@ h1 {
 }
 
 .about_text {
-    border: 1px solid red;
     width: 50%;
 }
 
@@ -96,6 +95,58 @@ h1 {
     width: fit-content;
     padding-bottom: 3px; 
 }
+
+/* Portfolio */
+
+.portfolio_content {
+    padding: 60px 60px; /*temporary*/
+    margin-bottom: 10%;
+}
+
+.portfolio_text {
+    margin-bottom: 5%;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 10%;
+    row-gap: 15%;
+}
+
+.grid_text {
+    width: 100%;
+    text-align: center;
+}
+
+.grid_img {
+    object-fit: cover;
+    border: 3px solid #969615;
+    width: 100%;
+}
+
+/* Contact */
+
+.contact_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 60px; /*temporary*/
+}
+
+.contact_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact_img {
+    border: 1px solid red;
+}
+
+
 
 /* Images (temporary)*/
 img {
