@@ -23,6 +23,8 @@ nav {
     display: flex;
     align-items: center;
     padding-left: 2%; /* temporary ?*/
+    position: fixed;
+    width: 100%;
 }
 
 ul {
