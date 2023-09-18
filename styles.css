@@ -142,6 +142,22 @@ h1 {
     text-align: center;
 }
 
+.contact_links {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.email {
+    background-color: #F1845C;
+    border-style: none;
+    border-radius: 2px;
+    width: 25%;
+    padding: 2px;
+}
+
 .contact_img {
     border: 1px solid red;
 }
