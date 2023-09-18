@@ -162,6 +162,22 @@ h1 {
     border: 1px solid red;
 }
 
+/* Footer */
+footer {
+    background-color: #AED3CD;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h3 {
+    font-weight: 300;
+}
+
+.orange {
+    color: #F1845C;
+}
 
 
 /* Images (temporary)*/
