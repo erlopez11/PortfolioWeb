@@ -40,6 +40,14 @@ ul {
     width: fit-content;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #012332;
+}
+
 /* Hero Content */
 
 .hero_content {
@@ -207,6 +215,7 @@ img {
 }
 
 .overlay_container {
+    display: none;
     background-color: #FCFBF9;
     position: relative;
     width: 50%;
