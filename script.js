@@ -8,6 +8,8 @@ const rps_container = document.querySelector('.rps_container');
 const scrabble_container = document.querySelector('.scrabble_container');
 const sage_container = document.querySelector('.sage_container');
 
+
+// Portfolio PopUps
 item.forEach(item => {
     item.addEventListener('click', () => display(item));
 })
@@ -27,4 +29,14 @@ function display(item) {
     } else if (item.classList.contains('sage')) {
         sage_container.style.display = 'flex';
     }
+}
+
+function exitOverlay() {
+    overlay.style.display = 'none';
+    calculator_container.style.display = 'none';
+    terra_container.style.display = 'none';
+    etch_container.style.display = 'none';
+    rps_container.style.display = 'none';
+    scrabble_container.style.display = 'none';
+    sage_container.style.display = 'none';
 }
