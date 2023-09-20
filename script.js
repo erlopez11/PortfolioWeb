@@ -8,6 +8,8 @@ const rps_container = document.querySelector('.rps_container');
 const scrabble_container = document.querySelector('.scrabble_container');
 const sage_container = document.querySelector('.sage_container');
 
+const section = document.querySelectorAll('section[id]');
+
 
 // Portfolio PopUps
 item.forEach(item => {
@@ -39,4 +41,23 @@ function exitOverlay() {
     rps_container.style.display = 'none';
     scrabble_container.style.display = 'none';
     sage_container.style.display = 'none';
+}
+
+// Navigation Scroll
+
+window.addEventListener("scroll", highlightNav);
+
+function highlightNav() {
+    let scrollY = window.pageYOffset;
+    section.forEach(current => {
+        const sectionHeight = current.offsetHeight;
+        const sectionTop = current.offsetTop - 50;
+        const sectionId = current.getAttribute('id');
+
+        if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+            document.querySelector('.navigation a[href*=' + sectionId + ']').classList.add('active')
+        } else {
+            document.querySelector('.navigation a[href*=' + sectionId + ']').classList.remove('active')
+        }
+    })
 }
