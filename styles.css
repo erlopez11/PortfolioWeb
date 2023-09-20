@@ -34,7 +34,7 @@ ul {
     font-weight: bold;
 }
 
-.current_menu {
+.active {
     border-bottom: solid #F1845C;
     padding-bottom: 3px;
     width: fit-content;
