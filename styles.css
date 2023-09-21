@@ -40,11 +40,11 @@ ul {
     width: fit-content;
 }
 
-a {
+.navigation a {
     text-decoration: none;
 }
 
-a:visited {
+.navigation a:visited {
     color: #012332;
 }
 
@@ -239,12 +239,16 @@ img {
     width: 40%;
 }
 
-.overlay_text button {
-    background-color: #F1845C;
-    border-style: none;
-    border-radius: 2px;
-    width: auto;
-    padding: 10px;
+a {
+    color: #F1845C;
+}
+
+a:visited{
+    color: #969615;
+}
+
+a:hover {
+    color: #0E6969;
 }
 
 .close {
