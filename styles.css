@@ -8,7 +8,7 @@
 
 body {
     font-size: 100%;
-    min-height: 100vh;
+    height: 100vh;
     background-color: #FCFBF9;
     font-family: 'Public Sans', sans-serif;
     color: #012332;
@@ -19,16 +19,17 @@ body {
 
 nav {
     background-color: #AED3CD;
-    height: 8vh;
+    height: 8%;
     display: flex;
     align-items: center;
-    padding-left: 2%; /* temporary ?*/
     position: fixed;
+    top: 0;
     width: 100%;
 }
 
 ul {
     display: flex;
+    width: 100vw;
     gap: 35%; /* temporary ?*/
     list-style-type: none;
     font-weight: bold;
@@ -54,7 +55,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60vh;
+    /*height: 60vh;*/
     padding: 60px 60px; /*temporary*/
 }
 
@@ -261,4 +262,48 @@ a:hover {
     top: 0;
     right: 0;
     margin: 10px;
+}
+
+
+/* Media Queries */
+
+/* Mobile Style */
+@media only screen and (max-width: 400px) {
+    /* Navigation */
+    nav {
+        font-size: 10px;
+        padding: 15px;
+        height: auto;
+    }
+    ul {
+        width: 100vw;
+        gap: 10%;
+        flex-wrap: wrap;
+    }
+    /* Hero Section */
+    .hero_content {
+        padding: 20px;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    h1{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .hero_text {
+        font-size: 12px;
+        width: 80%;
+    }
+    .hero_img {
+        width: 80%;
+        margin-bottom: 60px;
+    }
+    /* About Section */
+    .grid_container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
 }
