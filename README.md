@@ -19,3 +19,6 @@ I also used JavaScript in the portfolio section, to add pop-up boxes that displa
 
 # Further Implementation 
 I have noticed that there are still some sizing and layout issues when viewing the site on a small laptop screen. th image at the bottom og the page starts to flow into the footer and overlaps it. 
+
+# Demo
+[Portfolio](https://erlopez11.github.io/PortfolioWeb/)
