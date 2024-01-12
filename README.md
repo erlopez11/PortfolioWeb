@@ -1,8 +1,6 @@
 # PortfolioWeb
 My portfolio website for front end development.
-
-<img width="1178" alt="portfolio sample" src="https://github.com/erlopez11/PortfolioWeb/assets/101296798/5ca3716c-ee6a-4da6-9c54-de34e457008b">
-
+<img width="1171" alt="portfolio sample" src="https://github.com/erlopez11/PortfolioWeb/assets/101296798/f47a1719-4fd0-47dc-9483-93b0c7e3f4c0">
 
 
 # Description
